@@ -1,0 +1,31 @@
+{
+  "name": "mu-code-snippets",
+  "displayName": "mu-code-snippets",
+  "description": "code snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+
+  "scripts": {
+    "publish": "vsce package --allow-missing-repository"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "publisher": "MuyianKing",
+  "icon": "./logo.png",
+  "private": "true"
+}
