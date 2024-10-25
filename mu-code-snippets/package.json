@@ -2,6 +2,9 @@
   "name": "mu-code-snippets",
   "displayName": "mu-code-snippets",
   "description": "code snippets",
+  "scripts": {
+    "publish": "vsce package --allow-missing-repository"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
@@ -9,10 +12,6 @@
   "categories": [
     "Snippets"
   ],
-
-  "scripts": {
-    "publish": "vsce package --allow-missing-repository"
-  },
   "contributes": {
     "snippets": [
       {

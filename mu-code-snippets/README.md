@@ -1,3 +1,3 @@
-# mu-code-snippets README
+# mu-code-snippets
 
 a code-snippets plugin
