@@ -1,3 +1,3 @@
 # mu-code-snippets
 
-a code-snippets plugin
+A code snippet plugin starting with "mu_"
