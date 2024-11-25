@@ -4,14 +4,14 @@
 		"scope": "",
 		"prefix": "mu_server",
 		"body": [
-			"import { post } from '@utils/request'",
+			"import http from '@http'",
 			"",
 			"export async function get$1() {",
-			"  const result = await post(hl.api)",
+			"  const result = await http.post(hl.api)",
 			"  return result",
 			"}",
 		],
-		"description": "server api request"
+		"description": "server文件模板"
 	},
 	"close loading": {
 		"scope": "",
@@ -19,7 +19,7 @@
 		"body": [
 			"hl.message.closeLoading()",
 		],
-		"description": "close loading"
+		"description": "关闭loading"
 	},
 	"try catch": {
 		"scope": "",
@@ -30,7 +30,8 @@
 			"} catch (e) {",
 			"  hl.message.error(e, '$1')",
 			"}"
-		]
+		],
+		"description": "trycatch"
 	},
 	"pinia": {
 		"scope": "",
@@ -44,13 +45,15 @@
 			"",
 			"  },",
 			"})",
-		]
+		],
+		"description": "定义pinia模板"
 	},
 	"import element-plus style": {
 		"scope": "",
 		"prefix": "mu_el-style",
 		"body": [
 			"import 'element-plus/es/components/$1/style/css'",
-		]
+		],
+		"description": "引入element-plus样式"
 	},
 }

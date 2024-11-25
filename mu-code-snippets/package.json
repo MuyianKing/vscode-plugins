@@ -5,7 +5,7 @@
   "scripts": {
     "publish": "vsce package --allow-missing-repository"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -17,6 +17,10 @@
       {
         "language": "vue",
         "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue.h5.code-snippets"
       },
       {
         "language": "vue",

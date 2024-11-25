@@ -1,0 +1,23 @@
+{
+	// vue 代码片段
+	"vue h5 template": {
+		"scope": "",
+		"prefix": "mu_h5_main",
+		"body": [
+			"<script setup>",
+			"</script>",
+			"",
+			"<template>",
+			"  <hl-main-body title=\"$1\">",
+			"    <div class=\"p-4\">",
+			"    </div>",
+			"  </hl-main-body>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>",
+			""
+		],
+		"description": "VUE基础template"
+	}
+}

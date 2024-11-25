@@ -62,4 +62,35 @@
 		],
 		"description": "列表页基础模板"
 	},
+	"vue form-dialogh template": {
+		"scope": "",
+		"prefix": "mu_vue_form_dialog",
+		"body": [
+			"<script setup>",
+			"const props = defineProps({",
+			"  data: {",
+			"    type: Object,",
+			"    default: null,",
+			"  },",
+			"})",
+			"const form = ref({})",
+			"const $attrs = useAttrs()",
+			"watch(() => $attrs.modelValue, (val) => {",
+			"  if (val) {",
+			"    form.value = {}",
+			"  }",
+			"})",
+			"</script>",
+			"<template>",
+			"  <hl-form-dialog title=\"\" :model=\"form\">",
+			"    <hl-form-item label=\"\">",
+			"    </hl-form-item>",
+			"  </hl-form-dialog>",
+			"</template>",
+			"<style lang='scss' scoped>",
+			"</style>",
+			""
+		],
+		"description": "VUE基础template"
+	},
 }
