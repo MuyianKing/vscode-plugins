@@ -93,4 +93,13 @@
 		],
 		"description": "VUE基础template"
 	},
+	"vue hl-table-column default slot template": {
+		"scope": "",
+		"prefix": "mu_vue_table_column_slot",
+		"body": [
+			"<template #default=\"{ row }\">",
+			"{{row.$1}}",
+		  	"</template>"
+		]
+	}
 }
